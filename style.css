@@ -1,0 +1,14 @@
+/* Properties which are inherited by the child element*/
+body {
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 32px;
+  color: red;
+  font-size: initial;
+  font-weight: initial;
+}
+
+/* Properties which are not inherited by the child element */
+body {
+  background-color: aqua;
+  font-size: revert;
+}
